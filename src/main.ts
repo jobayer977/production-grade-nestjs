@@ -1,6 +1,6 @@
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 
-import { AppModule } from "./@core/app.module";
+import { AppModule } from "./core/app.module";
 import { ENV } from "./ENV";
 import { NestFactory } from "@nestjs/core";
 import { ValidationPipe } from "@nestjs/common";
